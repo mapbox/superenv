@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mapbox/superenv.png)](https://travis-ci.org/mapbox/superenv)
+
 ## superenv
 
 A subset of [rc](https://github.com/dominictarr/rc) that pulls configuration

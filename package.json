@@ -1,0 +1,28 @@
+{
+  "name": "superenv",
+  "version": "0.0.0",
+  "description": "a subset of rc that does environment and configuration parsing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "xtend": "~2.0.6",
+    "ini": "~1.1.0"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.12.0"
+  },
+  "repository": "git@github.com:mapbox/superenv.git",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "config",
+    "environment",
+    "rc"
+  ],
+  "author": "Tom MacWright",
+  "license": "BSD"
+}

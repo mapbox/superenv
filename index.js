@@ -10,6 +10,7 @@ var home = win ?
     process.env.HOME;
 
 module.exports = function(name) {
+    if (!name) throw new Error('Namespace required');
     var local = findUp('.' + name + 'rc');
     return xtend(
         win ? {} : read(path.join(etc, name, 'config')),

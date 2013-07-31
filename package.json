@@ -16,7 +16,7 @@
   },
   "repository": "git@github.com:mapbox/superenv.git",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R spec"
   },
   "keywords": [
     "config",

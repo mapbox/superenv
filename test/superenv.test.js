@@ -18,4 +18,10 @@ describe('environment variable getting', function() {
         delete process.env.foo_bar;
         fs.unlinkSync('.foofoorc');
     });
+
+    it('requires a namespace', function() {
+        expect(function() {
+            superenv();
+        }).to.throwError('Namespace is required');
+    });
 });

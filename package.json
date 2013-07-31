@@ -1,6 +1,6 @@
 {
   "name": "superenv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a subset of rc that does environment and configuration parsing",
   "main": "index.js",
   "directories": {

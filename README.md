@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mapbox/superenv.png)](https://travis-ci.org/mapbox/superenv)
+[![Build Status](https://travis-ci.org/mapbox/superenv.svg)](https://travis-ci.org/mapbox/superenv)
 
 ## superenv
 

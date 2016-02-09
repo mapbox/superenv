@@ -44,6 +44,7 @@ function parse(content, file) {
 function prefixedEnv(prefix, env) {
     env = env || process.env;
     var obj = {}, l = prefix.length;
+    var i;
     for (var k in env) {
         if ((i = k.indexOf(prefix)) === 0) obj[k.substring(l)] = env[k];
     }
